@@ -32,9 +32,9 @@ filter: drop-shadow(4px 4px 4px black)
 .corpo 
 {
     background-image: url("../img/background.jpg");
-    background-position: fixed; 
+    background-position: center center; 
     background-repeat: no-repeat; 
-    background-size: cover; 
+    /*background-size: cover;*/
     margin-top: 100px;
     height: 570px;
 
@@ -45,7 +45,7 @@ filter: drop-shadow(4px 4px 4px black)
     border-bottom-left-radius: 60px;
     margin-top: 100px ;
     box-shadow: 4px 4px 8px black;
-    background-color: #e8a530b2;
+    background-color: #e9a331;
     width: 450px;
     float: right;
 }
@@ -84,7 +84,7 @@ filter: drop-shadow(4px 4px 4px black)
     font-size: 15px;
     padding-bottom: 5px;
 }
-.corpo2
+.corpoH
 {
     height: 150px;
     background-color: #403e56;
@@ -94,7 +94,7 @@ filter: drop-shadow(4px 4px 4px black)
 {
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #e8a530b2;
+    background-color: #e9a331;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     box-shadow: 4px 4px 8px black;
@@ -117,17 +117,11 @@ filter: drop-shadow(4px 4px 4px black)
     filter: drop-shadow(2px 2px 4px black);
 }
 
-.corpo4
-{
-    height: 150px;
-    background-color: #403e56;
-
-}
 
 .corpo5
 {
     
-    background-color: #e8a530b2;
+    background-color: #e9a331;
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom-right-radius: 60px;
@@ -145,3 +139,90 @@ filter: drop-shadow(4px 4px 4px black)
     
 }
 
+.corpo6
+{
+    width: 600px;
+    background-color: #e9a331;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 60px;
+    box-shadow: 4px 4px 8px black;
+
+}
+.contato
+{
+    padding-top: 20px;
+
+}
+.conta
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: width .4s;
+    transition:  .4s;
+}
+.conta:hover
+{
+    filter: drop-shadow(1px 1px 15px white);
+    width: 55px ;
+    margin-bottom: 0px;
+}
+.dive
+{
+    margin-left: 120px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.bot
+{
+    -webkit-transition: 0.2s;
+    transition:  0.2s;
+}
+.bot:hover
+{
+    background-color: #3f3d56;
+     border-radius: 30px;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagem::after {
+  content: attr(data-title); 
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}
+.corpoFINAL
+{
+    height: 150px;
+    background-color: #403e56;
+}
+
+.autor
+{
+
+    text-align: center;   
+    color: white;
+    padding-top: 25px;
+}
+
+.link
+{
+
+    text-align: center;   
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover
+{
+    color: #e9a331;
+}
