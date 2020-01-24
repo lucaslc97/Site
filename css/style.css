@@ -240,6 +240,137 @@ filter: drop-shadow(4px 4px 4px black)
     text-decoration: none;
 }
 
+/*Design resposivo*/
+
+@media (max-width: 600px)
+{
+/*começo da pagina*/
+
+       
+.sobre
+{
+    
+    margin-top: 80px ;
+    box-shadow: 4px 4px 8px black;
+    background-color: #e9a331;
+    width: 500px;
+    
+}
+.fotoEu
+{
+    margin-left: 170px;
+}
+/*meio da pagina*/
+    /*Skills*/
+
+.corpo3
+ {
+    width:  500px;
+}
+
+.divisao
+{
+    margin-left: 10px;
+}
+.nomes
+{
+    padding-left: 140px;
+}
+
+
+     /*Projetos*/ 
+.corpo5
+{
+   width:  500px;
+}
+.carta
+{
+    margin-left: 100px;
+
+}
+
+/*fim da pagina*/ 
+.corpo6
+{
+    width: 400px;
+}
+
+
+.NM
+{
+    font-size: 17px;
+    margin-left: -50px;
+}
+
+
+}
+
+
+@media (max-width: 420px)
+{
+/*começo da pagina*/
+.corpo
+{
+    height:700px;
+}
+       
+.sobre
+{
+    
+    width: 300px;
+    
+}
+.fotoEu
+{
+    margin-left: 70px;
+}
+/*meio da pagina*/
+    /*Skills*/
+
+.corpo3
+ {
+    width:  300px;
+}
+
+.divisao
+{
+    margin-left: 10px;
+}
+.nomes
+{
+    padding-left: 140px;
+}
+
+
+     /*Projetos*/ 
+.corpo5
+{
+   width:  300px;
+}
+.carta
+{
+    margin-bottom: 50px;
+    margin-left: -10px ;
+
+}
+
+/*fim da pagina*/ 
+.corpo6
+{
+    width: 300px;
+}
+
+
+.NM
+{
+    font-size: 17px;
+    margin-left: -90px;
+}
+
+
+}
+
+
 
 /* Animação */
 

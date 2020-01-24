@@ -24,7 +24,7 @@ function scrollIdOnClick(event)
 }
 
 
-// Animação ao scroll 
+// Animação ao dar scroll com mouse
 
 function debounce(func, wait, immediate) {
 	var timeout;
