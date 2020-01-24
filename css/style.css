@@ -1,6 +1,7 @@
 *
 {
     font-family: 'Arimo', sans-serif;
+    text-decoration: none;
 
 }
 .corpoMenu
@@ -14,6 +15,12 @@
 filter: drop-shadow(4px 4px 4px black)
 
 }
+.botao
+{
+    border: 2px solid #3f3d56 !important;
+}
+
+
 .botoesMenu
 {
     color: black;
@@ -211,7 +218,8 @@ filter: drop-shadow(4px 4px 4px black)
 
     text-align: center;   
     color: white;
-    padding-top: 25px;
+    padding-top: 50px;
+    text-decoration: none;
 }
 
 .link
@@ -225,4 +233,35 @@ filter: drop-shadow(4px 4px 4px black)
 .link:hover
 {
     color: #e9a331;
+}
+
+.NM
+{
+    text-decoration: none;
+}
+
+
+/* Animação */
+
+[data-anime]
+{
+    opacity: 0;
+    transition: .2s;
+}
+
+[data-anime="left"]
+{
+    transform: translate3d(-100px, 0, 0);
+}
+
+[data-anime="right"]
+{
+    transform: translate3d(100px, 0, 0);
+}
+
+[data-anime].animate
+{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
 }
